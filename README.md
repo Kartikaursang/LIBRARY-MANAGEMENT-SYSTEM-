@@ -78,3 +78,7 @@ This is a Library Management System built with **Flask** and **MySQL** that allo
 4. **Borrow History**:
    - ADMIN  can view ALL USERS borrowing history, which includes a list of books they've borrowed, the dates they borrowed them.
         ![BORROWHISTORY](BORROWHISTORY.png)
+     
+5. **CSV Export**:
+   - Users can download their borrowing history as a CSV file, containing details like book title, borrow date, return date, and status.
+        ![CSV](CSV.png)
