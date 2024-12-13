@@ -57,5 +57,5 @@ This is a Library Management System built with **Flask** and **MySQL** that allo
    - Displays two login buttons:
      - **User Login**: Redirects to the user login page where users can log in with their email and password.
      - **Admin Login**: Redirects to the admin login page for administrators to log in and manage book borrowing requests.
-       
+       ![Image Description](path/to/your/image.png)
 
