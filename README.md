@@ -42,3 +42,12 @@ This is a Library Management System built with **Flask** and **MySQL** that allo
 - │     ├── user_histor.css
 - │     └── admin_dashboard.css
 - └── requirements.txt    # List of Python dependencies
+
+## Usage
+
+- **User Login**: Enter your email and password to log in as a user.
+- **Admin Login**: Admins can log in with their credentials to manage book borrowing requests.
+- **Borrow Books**: Users can select available books and specify borrowing dates.
+- **Download Borrowing History**: Users can download their borrowing history in CSV format.
+- **Admin Dashboard**: Admins can approve or deny borrow requests for books.
+
