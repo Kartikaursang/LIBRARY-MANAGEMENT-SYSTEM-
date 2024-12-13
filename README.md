@@ -26,9 +26,9 @@ This is a Library Management System built with **Flask** and **MySQL** that allo
 **library-management/**
 - ├── app.py              # Main application file
 - ├── templates/          # HTML files for rendering
-- │   ├── index.html      # Home page
-- │   ├── user_login.html # User login page
-- │   ├── admin_login.html# Admin login page
-- │   ├── user_dashboard.html # User dashboard
-- │   └── admin_dashboard.html # Admin dashboard
+- │     ├── index.html      # Home page
+- │     ├── user_login.html # User login page
+- │     ├── admin_login.html# Admin login page
+- │     ├── user_dashboard.html # User dashboard
+- │     └── admin_dashboard.html # Admin dashboard
 - └── requirements.txt    # List of Python dependencies 
