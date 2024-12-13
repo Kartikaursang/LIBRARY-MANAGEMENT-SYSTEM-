@@ -23,6 +23,8 @@ This is a Library Management System built with **Flask** and **MySQL** that allo
 - `/download-history/<int:user_id>`: Download a CSV of the user's borrowing history
 - `/logout`: Logs out the user and redirects to the home page
 
+## DIRECTORY
+
 **library-management/**
 - ├── app.py              # Main application file
 - ├── templates/          # HTML files for rendering
