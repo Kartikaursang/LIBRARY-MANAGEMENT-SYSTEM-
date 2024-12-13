@@ -32,3 +32,11 @@ This is a Library Management System built with **Flask** and **MySQL** that allo
 - │     ├── user_dashboard.html # User dashboard
 - │     └── admin_dashboard.html # Admin dashboard
 - └── requirements.txt    # List of Python dependencies 
+- ├── static/
+- |images/
+- │     ├── styles.css     
+- │     ├── style.css
+- │     ├── user_dashboard.css
+- │     ├── user_histor.css
+- │     └── admin_dashboard.css
+- └── requirements.txt    # List of Python dependencies
