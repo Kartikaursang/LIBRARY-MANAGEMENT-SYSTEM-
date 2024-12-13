@@ -7,7 +7,7 @@ This is a Library Management System built with **Flask** and **MySQL** that allo
 ### TECHNOLOGY USED:
 - **BACKEND**: python
 - **FRONTEND**: html,css.
-- **DaTABASE**: MySql
+- **DATABASE**: MySql
 - **DEPENDENCIES**:Flask,mysql-connector-python
 
 ### Key Features:
