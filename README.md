@@ -11,9 +11,9 @@ This is a Library Management System built with **Flask** and **MySQL** that allo
 - **Borrowing History**: Users can view their borrowing history, and admins can manage and approve/deny borrow requests.
 - **CSV Export**: Users can download their borrowing history as a CSV file.
 
-##Directory Structure
+## Directory Structure
 
-library-management/
+**library-management/**
 ├── app.py              # Main application file
 ├── templates/          # HTML files for rendering
 │   ├── index.html      # Home page
