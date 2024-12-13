@@ -10,6 +10,66 @@ This is a Library Management System built with **Flask** and **MySQL** that allo
 - **DATABASE**: MySql
 - **DEPENDENCIES**:Flask,mysql-connector-python
 
+## Database Schema
+
+The **Library Management System** uses a MySQL database called `lb`. Below is the schema and structure of the key tables used in the system:
+
+### Tables in `lb` database:
+- **admin**
+- **books**
+- **borrow_requests**
+- **users**
+
+### 1. **admin Table**
+
+The `admin` table stores the login credentials for the administrator.
+
+| Field    | Type         | Null | Key | Default | Extra          |
+|----------|--------------|------|-----|---------|----------------|
+| id       | int          | NO   | PRI | NULL    | auto_increment |
+| email    | varchar(255) | NO   |     | NULL    |                |
+| password | varchar(255) | NO   |     | NULL    |                |
+
+### 2. **books Table**
+
+The `books` table stores the details of all the books available in the library.
+
+| Field     | Type         | Null | Key | Default | Extra          |
+|-----------|--------------|------|-----|---------|----------------|
+| id        | int          | NO   | PRI | NULL    | auto_increment |
+| title     | varchar(255) | YES  |     | NULL    |                |
+| author    | varchar(255) | YES  |     | NULL    |                |
+| available | int          | YES  |     | 1       |                |
+
+### 3. **borrow_requests Table**
+
+The `borrow_requests` table tracks the borrowing requests made by users.
+
+| Field     | Type        | Null | Key | Default | Extra          |
+|-----------|-------------|------|-----|---------|----------------|
+| id        | int         | NO   | PRI | NULL    | auto_increment |
+| user_id   | int         | YES  | MUL | NULL    |                |
+| book_id   | int         | YES  | MUL | NULL    |                |
+| date_from | date        | YES  |     | NULL    |                |
+| date_to   | date        | YES  |     | NULL    |                |
+| status    | varchar(50) | YES  |     | pending |                |
+
+### 4. **users Table**
+
+The `users` table stores the details of all the users registered in the system.
+
+| Field      | Type         | Null | Key | Default           | Extra             |
+|------------|--------------|------|-----|-------------------|-------------------|
+| id         | int          | NO   | PRI | NULL              | auto_increment    |
+| email      | varchar(255) | NO   | UNI | NULL              |                   |
+| password   | varchar(255) | NO   |     | NULL              |                   |
+| created_at | timestamp    | YES  |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
+
+---
+
+This database schema helps in managing the users, books, and borrow requests in the library system. It supports the core functionality of the **Library Management System**, including user authentication, book borrowing, and request management.
+
+
 ### Key Features:
 - **User Login**: Users can log in using their email and password.
 - **Admin Login**: Admin can log in and manage book borrowing requests.
