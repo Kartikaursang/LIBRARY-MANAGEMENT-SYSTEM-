@@ -60,6 +60,9 @@ This is a Library Management System built with **Flask** and **MySQL** that allo
        ![Main Page](MAINPAGE.png)
        ![USERLOGIN Page](USERLOGIN.png)
        ![ADMINLOGIN Page](ADMINLOGIN.png)
+2. **User Dashboard**:
+   - After a successful login, users can view available books, borrow books by specifying dates, and view their borrowing history And Download the history (csv file).
+      ![USERDASHBOARD ](USERDASHBOARD.png)
 
 
 
