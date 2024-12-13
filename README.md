@@ -4,6 +4,12 @@
 
 This is a Library Management System built with **Flask** and **MySQL** that allows both users and administrators to log in, borrow books, view borrowing history, and approve/deny borrowing requests.
 
+### TECHNOLOGY USED:
+- **BACKEND**: python
+- **FRONTEND**: html,css.
+- **DaTABASE**: MySql
+- **DEPENDENCIES**:Flask,mysql-connector-python
+
 ### Key Features:
 - **User Login**: Users can log in using their email and password.
 - **Admin Login**: Admin can log in and manage book borrowing requests.
