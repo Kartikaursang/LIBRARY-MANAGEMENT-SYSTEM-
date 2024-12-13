@@ -68,6 +68,7 @@ This is a Library Management System built with **Flask** and **MySQL** that allo
    - Admins can log in to manage book borrowing requests. They can approve or deny requests from users.
        ![ADMINDASHBOARD ](ADMINDASHBOARD.png)
        ![ADMINDASHBOARD1 ](ADMINDASHBOARD1.png)
-4.**Borrow History**:
+     
+4. **Borrow History**:
    - ADMIN  can view ALL USERS borrowing history, which includes a list of books they've borrowed, the dates they borrowed them.
         ![BORROWHISTORY](BORROWHISTORY.png)
