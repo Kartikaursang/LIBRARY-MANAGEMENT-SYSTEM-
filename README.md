@@ -64,5 +64,8 @@ This is a Library Management System built with **Flask** and **MySQL** that allo
    - After a successful login, users can view available books, borrow books by specifying dates, and view their borrowing history And Download the history (csv file).
       ![USERDASHBOARD ](USERDASHBOARD.png)
 
-
+3. **Admin Dashboard**:
+   - Admins can log in to manage book borrowing requests. They can approve or deny requests from users.
+       ![ADMINDASHBOARD ](ADMINDASHBOARD.png)
+       ![ADMINDASHBOARD1 ](ADMINDASHBOARD1.png)
 
